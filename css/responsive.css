@@ -1,0 +1,94 @@
+
+/* ####### Responsive design ######### */
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  /* ******************* */
+.header-section .banner-section h1 {
+    font-size: 30px;
+}
+.header-section .banner-section p {
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+.title h1 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.about-sort .content {
+    font-size: 13px;
+    line-height: 20px;
+}
+.about-beauty .content {
+    font-size: 13px;
+    line-height: 20px;
+}
+.inner-btn .btn-primary, .inner-btn .btn-light  {
+    padding: 6px 14px;
+    border-radius: 3px;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.testimonial .owl-carousel .item h4 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+  /* ******************* */
+  
+}
+
+
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  /* ******************* */
+
+
+
+  /* ******************* */
+  
+}
+
+
+
+
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* ******************* */
+.header-section .banner-section h1 {
+    font-size: 35px;
+    line-height: 40px;
+}
+.header-section .banner-section p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.about-sort .aboutimg {
+    margin: 200px 0px 0px;
+}
+  /* ******************* */
+  
+}
